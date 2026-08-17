@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <OutputPath>bin</OutputPath>
+    <AssemblyName>VerityMod</AssemblyName>
+    <Version>1.0.0</Version>
+    <RootNamespace>VerityMod</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- BepInEx Dependencies -->
+    <Reference Include="BepInEx">
+      <HintPath>../BepInEx/core/BepInEx.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BepInEx.Logging.Console">
+      <HintPath>../BepInEx/core/BepInEx.Logging.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+
+    <!-- Unity Engine Core -->
+    <Reference Include="UnityEngine">
+      <HintPath>../Unity/UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>../Unity/UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>../Unity/UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+
+    <!-- Gorilla Tag Specific DLLs -->
+    <Reference Include="GorillaLocomotion">
+      <HintPath>../GorillaTag/GorillaLocomotion.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GorillaNetworking">
+      <HintPath>../GorillaTag/GorillaNetworking.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+
+    <!-- Utilla Framework for mod utilities -->
+    <Reference Include="Utilla">
+      <HintPath>../Utilla/Utilla.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+
+    <!-- Assembly-CSharp contains Gorilla Tag game code -->
+    <Reference Include="Assembly-CSharp">
+      <HintPath>../GorillaTag/Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
