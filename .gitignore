@@ -1,0 +1,31 @@
+# Build results
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# Visual Studio
+.vs/
+.vscode/
+*.csproj.user
+*.sln.DotSettings
+*.sln.DotSettings.user
+
+# IDE files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Dependencies
+packages/
+.nuget/
+
+# Build output
+release/
+Debug/
+Release/
+
+# Logs
+*.log
