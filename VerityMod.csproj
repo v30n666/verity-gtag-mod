@@ -8,54 +8,47 @@
     <OutputPath>bin</OutputPath>
     <AssemblyName>VerityMod</AssemblyName>
     <Version>1.0.0</Version>
-    <RootNamespace>VerityMod</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <!-- BepInEx Dependencies -->
     <Reference Include="BepInEx">
-      <HintPath>../BepInEx/core/BepInEx.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx.Logging.Console">
-      <HintPath>../BepInEx/core/BepInEx.Logging.Console.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\BepInEx\core\BepInEx.Logging.Console.dll</HintPath>
     </Reference>
 
     <!-- Unity Engine Core -->
     <Reference Include="UnityEngine">
-      <HintPath>../Unity/UnityEngine.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>../Unity/UnityEngine.CoreModule.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>../Unity/UnityEngine.PhysicsModule.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
 
     <!-- Gorilla Tag Specific DLLs -->
     <Reference Include="GorillaLocomotion">
-      <HintPath>../GorillaTag/GorillaLocomotion.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\GorillaLocomotion.dll</HintPath>
     </Reference>
     <Reference Include="GorillaNetworking">
-      <HintPath>../GorillaTag/GorillaNetworking.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\GorillaNetworking.dll</HintPath>
     </Reference>
 
-    <!-- Utilla Framework for mod utilities -->
+    <!-- Utilla Framework -->
     <Reference Include="Utilla">
-      <HintPath>../Utilla/Utilla.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\BepInEx\plugins\Utilla\Utilla.dll</HintPath>
     </Reference>
 
-    <!-- Assembly-CSharp contains Gorilla Tag game code -->
+    <!-- Assembly-CSharp - Contains Player and other game classes -->
     <Reference Include="Assembly-CSharp">
-      <HintPath>../GorillaTag/Assembly-CSharp.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
   </ItemGroup>
 
